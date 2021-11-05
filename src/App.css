@@ -1,0 +1,11 @@
+.pageHeader img{
+    display: block;
+    margin: 0 auto;
+    max-width: 30%;
+}
+.App{
+    padding: 10px 60px;
+}
+.articleContainer{
+    margin-top: 15px;;
+}

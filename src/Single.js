@@ -54,8 +54,8 @@ const Single = ({match}) => {
                     }
                     {loading && 
                         <Grid item xs={12}>
-                            <Card sx={{ maxWidth: 600 }}>
-                                <Skeleton variant="rectangular" width={600} height={118} />
+                            <Card>
+                                <Skeleton variant="rectangular" height={118} />
                                 <Skeleton sx={{mt: 1, mb:0.3}} variant="rectangular" height={16}/>
                                 <Skeleton sx={{mb: 1}} variant="rectangular" height={16}/>
                                 <Skeleton variant="text"/>
